@@ -1,0 +1,26 @@
+table[id="striped"] {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table[id="striped"] th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    color: white;
+    background-color: firebrick;
+    border: 1px solid grey;
+}
+
+table[id="striped"] td {
+    padding: 8px;
+    border: 1px solid grey;
+}
+
+table[id="striped"] tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+table[id="striped"] tr:hover {
+    background-color: powderblue;
+}

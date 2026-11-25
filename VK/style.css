@@ -1,0 +1,14 @@
+.first {
+  color: white;
+  background-color: green;
+}
+
+#second {
+  color: red;
+  background-color: yellow;
+}
+
+p {
+  color: black;
+  background-color: lightgrey;
+}

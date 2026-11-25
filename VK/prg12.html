@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Background Color Changer</title>
+</head>
+
+<body>
+
+    <button id="btn">Change Background Colour</button>
+
+    <script>
+        var button = document.getElementById("btn");
+
+        // a) Single Click - Red
+        button.addEventListener("click", function () {
+            document.body.style.backgroundColor = "red";
+        });
+
+        // b) Double Click - Green
+        button.addEventListener("dblclick", function () {
+            document.body.style.backgroundColor = "green";
+        });
+    </script>
+
+</body>
+
+</html>
